@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { Event } from "../entities/Events";
+import { Event } from "../entities/Event";
 import { EventRepository } from "./EventRepository";
 
 const eventSchema = new mongoose.Schema({
